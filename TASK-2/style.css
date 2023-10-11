@@ -38,6 +38,7 @@
     color: gray;
     background-color: inherit;
     font-size: x-large;
+    
 }
 .task-adder button{
     position: relative;
@@ -47,7 +48,7 @@
     border-radius: 50px;
     background-color: rgb(253, 152, 45);
 }
-
+/* .task-holder{} */
 .list-line{
     display: flex;
     justify-content: space-between;
@@ -71,7 +72,11 @@
     justify-content: center;
     align-items: center;
 }
-.btn-group button{
+.complete-task{
+    margin: 5px;
+    background-color: inherit;
+}
+.delete-task{
     margin: 5px;
     background-color: inherit;
 }
